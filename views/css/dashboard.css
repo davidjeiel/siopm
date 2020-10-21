@@ -1,0 +1,68 @@
+/*61bdec
+83ccd5
+296fa7
+fc8f01
+fca816
+9f6705*/
+    #dashboard{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #dashboard table tr th{
+        color: #296fa7;
+    }
+
+    #dashboard .center{
+        text-align: center!important;
+    }
+
+    #dashboard .right: {
+        text-align: right!important;
+    }
+
+    .widget-container .titulo {
+        padding: 5px;
+        margin: 0;
+        background-color: #c5edf7;
+        color: #296fa7;
+    }
+    
+    .widget-container{
+        width: 517px;
+        height: 500px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .widget-pequeno{
+        height:  160px;
+    }
+    .widget-medio .scroll{
+        height:  208px;
+    }
+    .widget-grande .scroll{
+        height:  469px;
+    }
+    .widget-medio{
+        height:  239px;
+    }
+    .widget-grande{
+        height:  500px;
+    }
+    .widget-grande table, .widget-medio table, .widget-pequeno table{
+        font-size: 14px!important;
+    }
+
+    .widget-grande, .widget-medio, .widget-pequeno{
+        margin-bottom: 20px;
+        border: 1px solid rgb(221, 221, 221);
+        border-radius: 4px;
+        padding: 5px;
+        margin: 10px;
+    }
+
+    .scroll{
+        overflow-y: auto;
+    }
+    

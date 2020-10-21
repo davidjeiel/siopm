@@ -1,0 +1,178 @@
+/* CSS USO GERAL */
+
+/* Layout CSS*/
+body{
+  background: #EFEFEF;
+  background-color: rgb(249, 249, 249);
+}
+
+@navBarBgStart: #3D368B;
+@navBarBgEnd: #232051;
+
+.view{
+  margin:0 auto;
+  padding: 10px;
+  border-radius: 4px;
+  background: #FFF;
+  border: 1px solid rgb(221, 221, 221);
+  margin-left: 10px;
+  margin-right: 10px;
+  display: block;
+}
+
+
+#homologacao_container {
+  background-color: rgba(24,213,221,0.3);
+  border: 1px solid rgba(79,133,187,0.5);
+  box-shadow: 0 1px 3px rgba(79,133,187,1);
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1050;
+}
+
+input[type="text"] {
+  height: 20px;
+}
+
+#homologacao_container > h4 {
+  text-align: center;
+  opacity: 0.8;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 6px 0px 6px 0px; /* top right bottom left */
+  text-shadow: 1px 1px #000;
+  text-transform: uppercase;
+  font-family: Verdana;
+}
+
+#system-message {
+    z-index:1050;
+}
+
+.rodape-report, .cabecalho-report, .corpo-report{
+  box-shadow: 5px 5px 25px #888;
+  border-radius: 4px;
+  background: #FFF; 
+}
+
+
+.cabecalho-report{
+  padding :10px;
+}
+
+.cabecalho-report h3{ 
+  padding-left :10px;
+}
+.cabecalho-report .input-daterange .add-on {
+  margin-top: -10px;
+}
+.cabecalho-report .navbar-inner .btn{
+  margin-top: -10px;
+}
+.rodape-report{
+  margin-top: 25px;
+}
+
+/* Efeito nos icones de açãoes nos lists (TABELAS)*/
+
+.dataTables_scrollBody {
+  margin-bottom: 8px;
+}
+.dataTable tbody tr td{
+    padding: 6px 8px;
+}
+
+/* Efeito nos icones de açãoes nos lists (TABELAS)*/
+td div.nav-icon-table{
+    display: inline-block;
+    width: 20px;
+}
+
+td > div.nav-icon-table{
+  opacity: .3;
+}
+
+td a.nav-link-table div.nav-icon-table{
+    display: inline-block;
+    width: 20px;
+}
+
+td > a:hover   {
+    background-color: #489bf7;
+}
+
+/* Fim efeito nos icontes de ação da tabela */
+
+
+/* Modal Loader img */
+.modal-loader {
+    display:    none;
+    position:   fixed;
+    z-index:    1052;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../img/loader.gif') 
+                50% 50% 
+                no-repeat;
+    opacity: 0.80;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 80);
+    filter: alpha(opacity = 80)};
+}
+
+body.loading {
+    overflow: hidden;   
+}
+
+body.loading .modal-loader {
+    display: block;
+}
+/* FIM Modal Loader img */
+
+
+
+/* FORMS CSS*/
+form .control-group label{
+  font-weight: bold;
+}
+
+form .control-group.in-line{
+    display: inline-block;
+    padding-right: 12px;
+}
+
+.datepicker {
+    z-index: 1051;
+}
+
+.span_2{
+  width: 458px;
+}
+
+.span_3{
+  width: 680px;
+}
+
+.span_4{
+  width: 920px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
